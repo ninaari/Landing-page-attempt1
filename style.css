@@ -1,0 +1,109 @@
+/* CSS (Cascading Style Sheets) is used to decide HOW things on our webpage look like */
+
+/* Example Importing a google Font from https://fonts.google.com */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap'); */
+
+@font-face {
+  font-family: freightBigPro;
+  src: url(fbp.otf) format("opentype"); 
+}
+
+@font-face{
+   font-family:freightBigProBook;
+   src: url(ftbbook.otf) format("opentype");
+}
+
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 400;
+}
+
+.background-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+  font-family: freightBigPro;}
+
+
+
+
+#galaxy {
+  font-size: 80px;
+  color:white;
+  height: 900px;
+  background-image: url(galaxy.jpeg);
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  font-family: freightBigPro;
+  align-items: center;
+  background-position: center;
+}
+
+#featuredart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 5%;
+}
+
+.blues{
+  background-color:#F1F5F7;
+}
+
+#featuredart h2 {
+  text-align: center;
+  font-family: freightBigProBook;
+}
+
+#featuredart h5{
+  text-align: right;
+  font-family: freightBigProBook;
+
+}
+
+#whatisart h1{
+    text-align: center;
+    font-family: freightBigProbook;
+    letter-spacing: 3px;
+    padding-top: 4%;
+    padding-bottom: 0%;
+}
+
+#whatisart h2{
+  text-align: center;
+  font-family: freightBigProbook;
+  font-size: small;
+  letter-spacing: 2px;
+
+}
+
+.purpline{
+  border-top: solid purple 4px; 
+}
+
+.title-box {
+  display: inline-block;
+  border: solid 2px black;
+  padding: 20px 10px 20px 50px;
+  
+}
+
+.outer-box {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  position: relative;
+}
+
+.inner-box {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left: 100px;
+  bottom: 0%;
+
+}
